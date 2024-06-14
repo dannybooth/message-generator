@@ -1,5 +1,7 @@
-greetings = ["Hello there!", "Hi what's up.", "Hey!", "How are you?"];
+greetings = ["Hello", "Hi", "Hey", "Howdy"];
+firstName = ["Daniel", "Chris", "Ben", "Tom"];
+lastName = ["Booth", "Tomson", "Simpson", "Sideshow"];
 
-num = Math.floor(Math.random() * greetings.length);
+n = [Math.floor(Math.random() * greetings.length),Math.floor(Math.random() * greetings.length),Math.floor(Math.random() * greetings.length)];
 
-console.log(greetings[num]);
+console.log(greetings[n[0]],firstName[n[1]],lastName[n[2]]);
